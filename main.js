@@ -5,6 +5,7 @@ const Button = document.getElementById("restart");
 Button.style.display = "none";
 var count = 1;
 
+
 for (var controlvariable = 0; controlvariable < 9; controlvariable++) {
   allblocks.children[controlvariable].addEventListener("click", startthegame);
 }
